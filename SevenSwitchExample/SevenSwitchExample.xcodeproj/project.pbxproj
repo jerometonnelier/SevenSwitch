@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43AC32BD1D86DB6C003D6A72 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AC32BC1D86DB6C003D6A72 /* Media.xcassets */; };
 		4593DA6219561C05006EB924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593DA6119561C05006EB924 /* AppDelegate.swift */; };
 		4593DA6319561C5C006EB924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593DA5D19560DB4006EB924 /* ViewController.swift */; };
 		45B6529F176E3A440006F201 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B6529B176E3A440006F201 /* check.png */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43AC32BC1D86DB6C003D6A72 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		4593DA5D19560DB4006EB924 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4593DA6119561C05006EB924 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B6529B176E3A440006F201 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				45B6529D176E3A440006F201 /* cross.png */,
 				45B6529E176E3A440006F201 /* cross@2x.png */,
 				45F7C638176D202700AE1301 /* Supporting Files */,
+				43AC32BC1D86DB6C003D6A72 /* Media.xcassets */,
 			);
 			path = SevenSwitchExample;
 			sourceTree = "<group>";
@@ -147,6 +150,11 @@
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ben Vogelzang";
+				TargetAttributes = {
+					45F7C62D176D202700AE1301 = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = 45F7C629176D202700AE1301 /* Build configuration list for PBXProject "SevenSwitchExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -170,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43AC32BD1D86DB6C003D6A72 /* Media.xcassets in Resources */,
 				45F7C63C176D202700AE1301 /* InfoPlist.strings in Resources */,
 				45F7C644176D202700AE1301 /* Default.png in Resources */,
 				45F7C646176D202700AE1301 /* Default@2x.png in Resources */,
@@ -288,6 +297,7 @@
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -305,6 +315,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
